@@ -35,7 +35,8 @@ export default function TextForm(prop) {
   }
 
   const handleSentence = () => {
-    let sentences = text.split('. ');
+    let lowerText = text.toLowerCase();
+    let sentences = lowerText.split('. ');
     sentences = sentences.map((sentence) => {
      return sentence.charAt(0).toUpperCase() + sentence.slice(1);
     })
@@ -77,6 +78,7 @@ const handleremovextra = () => {
           <button disabled={text.length===0} className="bg-blue-800 rounded text-white font-semibold p-2 m-1" onClick={handleUp}>UpperCase</button>
           <button disabled={text.length===0} className="bg-blue-800 rounded text-white font-semibold p-2 m-1" onClick={handleLow}>LowerCase</button>
           <button disabled={text.length===0} className="bg-blue-800 rounded text-white font-semibold p-2 m-1" onClick={handleTitle}>Title Case</button>
+          <button disabled={text.length===0} className="bg-blue-800 rounded text-white font-semibold p-2 m-1" onClick={handleSentence}>Sentence Case</button>
           <button disabled={text.length===0} type="submit" onClick={speak} className="bg-blue-800 rounded text-white font-semibold p-2 m-1">Speak</button>
           <button disabled={text.length===0} type="button" className="bg-blue-800 rounded text-white font-semibold p-2 m-1" onClick={handlestopclicked}>Stop Listening </button>
           <button disabled={text.length===0} type="button" className="bg-blue-800 rounded text-white font-semibold p-2 m-1" onClick={handleremovextra}>Remove Extra Spaces </button>
