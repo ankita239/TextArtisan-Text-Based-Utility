@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TextArtisan-Text-Based-Utility/static/css/main.079d80e2.css",
+    "main.js": "/TextArtisan-Text-Based-Utility/static/js/main.6dd44046.js",
+    "static/js/453.02b6ed6f.chunk.js": "/TextArtisan-Text-Based-Utility/static/js/453.02b6ed6f.chunk.js",
+    "index.html": "/TextArtisan-Text-Based-Utility/index.html",
+    "main.079d80e2.css.map": "/TextArtisan-Text-Based-Utility/static/css/main.079d80e2.css.map",
+    "main.6dd44046.js.map": "/TextArtisan-Text-Based-Utility/static/js/main.6dd44046.js.map",
+    "453.02b6ed6f.chunk.js.map": "/TextArtisan-Text-Based-Utility/static/js/453.02b6ed6f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.079d80e2.css",
+    "static/js/main.6dd44046.js"
+  ]
+}
