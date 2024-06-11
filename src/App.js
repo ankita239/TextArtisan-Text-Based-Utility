@@ -42,15 +42,15 @@ function App() {
       document.title = "TextUtils - Text Base Utiity"
     }
   }
-  // if(myState === 'dark')
-  //   {
-  //     document.body.style.backgroundColor = '#08082D';
-  //     document.body.style.color = 'white';
-  //   }
-  // else{
-  //   document.body.style.backgroundColor = 'white';
-  //     document.body.style.color = 'black';
-  // }
+  if(myState === 'dark')
+    {
+      document.body.style.backgroundColor = '#08082D';
+      document.body.style.color = 'white';
+    }
+  else{
+    document.body.style.backgroundColor = 'white';
+      document.body.style.color = 'black';
+  }
   
   return (
     <Router>
