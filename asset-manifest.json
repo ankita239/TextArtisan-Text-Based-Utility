@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/TextArtisan-Text-Based-Utility/mytextartisan/static/css/main.f5db8ced.css",
-    "main.js": "/TextArtisan-Text-Based-Utility/mytextartisan/static/js/main.c15413cf.js",
-    "static/js/453.02b6ed6f.chunk.js": "/TextArtisan-Text-Based-Utility/mytextartisan/static/js/453.02b6ed6f.chunk.js",
-    "index.html": "/TextArtisan-Text-Based-Utility/mytextartisan/index.html",
-    "main.f5db8ced.css.map": "/TextArtisan-Text-Based-Utility/mytextartisan/static/css/main.f5db8ced.css.map",
-    "main.c15413cf.js.map": "/TextArtisan-Text-Based-Utility/mytextartisan/static/js/main.c15413cf.js.map",
-    "453.02b6ed6f.chunk.js.map": "/TextArtisan-Text-Based-Utility/mytextartisan/static/js/453.02b6ed6f.chunk.js.map"
+    "main.css": "/TextArtisan-Text-Based-Utility/static/css/main.f5db8ced.css",
+    "main.js": "/TextArtisan-Text-Based-Utility/static/js/main.ae02d860.js",
+    "static/js/453.02b6ed6f.chunk.js": "/TextArtisan-Text-Based-Utility/static/js/453.02b6ed6f.chunk.js",
+    "index.html": "/TextArtisan-Text-Based-Utility/index.html",
+    "main.f5db8ced.css.map": "/TextArtisan-Text-Based-Utility/static/css/main.f5db8ced.css.map",
+    "main.ae02d860.js.map": "/TextArtisan-Text-Based-Utility/static/js/main.ae02d860.js.map",
+    "453.02b6ed6f.chunk.js.map": "/TextArtisan-Text-Based-Utility/static/js/453.02b6ed6f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f5db8ced.css",
-    "static/js/main.c15413cf.js"
+    "static/js/main.ae02d860.js"
   ]
 }
