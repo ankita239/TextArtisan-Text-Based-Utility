@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 export default function Navbar(props) {
   return (
+    <>
     <div className={`flex justify-between px-4 py-2 items-center bg-${props.bgcolor} text-${props.bgcolor === 'dark'?'light':'black'}  border-b-2`}>
       <Link to="/" className='hover:no-underline hover:cursor-pointer hover:text-black'><h1 className={`${props.text} font-bold text-3xl `}>{props.title}</h1></Link>
       <ul className="flex gap-4 text-base ">
@@ -12,6 +13,7 @@ export default function Navbar(props) {
       </ul> 
       <button className={`border-none py-2 px-3 rounded-full focus:outline-none ${props.bgcolor==='dark'?'bg-gray-500':' bg-blue-200'}`} onClick={props.toggleMode}>{props.bgcolor==='dark'?'Light':'Dark'}</button>
     </div>
+   </>
   );
 }
 
@@ -23,6 +25,6 @@ Navbar.propTypes = {
 };
 
 Navbar.defaultProps = {
-  title: 'TextArtisan',
+  title: 'TextUtils',
   aboutName: 'About Us'
 };

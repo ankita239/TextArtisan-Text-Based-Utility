@@ -66,7 +66,7 @@ const handleremovextra = () => {
 }
   return (
     <div className={`text-center text-${prop.mode==='dark'?'light':'dark'} mb-3`}>
-        <h1 className="text-3xl font-bold my-2 mb-4">{prop.heading}  </h1>
+        <h1 className="text-3xl font-bold my-2 mb-3">{prop.heading}  </h1>
         <textarea
           value={text}
           className={`${prop.mode === 'dark'?' bg-gray-800 focus:bg-gray-700':' white'} ${prop.mode === 'dark'?'text-white':'text-black'} form-control overflow-x-hidden border-2  border-gray-400 rounded my-2 p-4 w-[75%] flex mx-auto`}
